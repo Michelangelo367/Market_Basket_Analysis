@@ -11,7 +11,6 @@ te = TransactionEncoder()
 te_data = te.fit(records).transform(records)
 df = pd.DataFrame(te_data, columns = te.columns_)
 df = df.drop(("nan"),axis=1)
-df
 
 from mlxtend.frequent_patterns import apriori
 
