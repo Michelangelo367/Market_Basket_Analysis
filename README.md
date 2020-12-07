@@ -32,4 +32,3 @@ It is used to find frequent individual items in database and extending them to l
 Strong or weak trend with objects/items which are associated with each other can be identified using appropriate threshold for support and confidence.<br>
 Features - it is easy to understand and can be parallelized <br>
 Limitations - it may need to find large number of rules which can be computationally expensive as it has to go through whole dataset.
-
